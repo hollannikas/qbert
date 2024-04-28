@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C6F1558E-E14A-48C0-A39F-BB4E3DB1054C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qbert.Api", "src\api\Qbert.Api.csproj", "{9123619B-0692-4279-B072-86054D0821B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Qbert.Quantum", "src\quantum\Qbert.Quantum.csproj", "{AD77D4C2-54C2-46FF-B93F-C58A49384362}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9123619B-0692-4279-B072-86054D0821B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9123619B-0692-4279-B072-86054D0821B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9123619B-0692-4279-B072-86054D0821B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9123619B-0692-4279-B072-86054D0821B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD77D4C2-54C2-46FF-B93F-C58A49384362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD77D4C2-54C2-46FF-B93F-C58A49384362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD77D4C2-54C2-46FF-B93F-C58A49384362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD77D4C2-54C2-46FF-B93F-C58A49384362}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9123619B-0692-4279-B072-86054D0821B2} = {C6F1558E-E14A-48C0-A39F-BB4E3DB1054C}
+		{AD77D4C2-54C2-46FF-B93F-C58A49384362} = {C6F1558E-E14A-48C0-A39F-BB4E3DB1054C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68BB0A85-0978-4A07-B619-0E18049F3EEC}
+	EndGlobalSection
+EndGlobal
